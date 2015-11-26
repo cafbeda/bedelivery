@@ -1,0 +1,32 @@
+.num_pedido
+{
+	background-color: #F5F5F5;
+	margin: -16px -16px 16px -16px;
+	padding: 10px 15px 10px 15px;
+	font-size: 1.2em;
+	overflow: hidden;
+	display: block;
+}
+
+.icone_status
+{
+	width: 32px;
+	height: 30px;
+	border: #B0C4DE 4px solid;
+	border-radius: 100%;
+	background-color: #B0C4DE;
+	color: #FFF;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 2px;
+	position: relative;
+	float: left;
+}
+
+.i_verdex
+{ background-color: green; }
+
+.i_vermelho
+{ background-color: #DE0000; }
+

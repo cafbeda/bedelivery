@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<title>BeDelivery</title> 
+<script type="text/javascript" src="cordova.js"></script>
+<link rel="stylesheet" href="jquery/jquery.mobile-1.4.3.min.css" />
+<script type="text/javascript" src="jquery/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="jquery/custom-scripting.js"></script>
+<script type="text/javascript" src="jquery/jquery.mobile-1.4.3.min.js"></script>
+<link rel="stylesheet" href="css/bedelivery.css" />
+<link rel="stylesheet" href="css/tema_p.css" />
+<link rel="stylesheet" href="css/menu.css" />
+<link rel="stylesheet" href="css/filtro.css" />
+<link rel="stylesheet" href="css/produtos.css" />
+<link rel="stylesheet" href="css/carrinho.css" />
+<link rel="stylesheet" href="css/lojas.css" />
+<link rel="stylesheet" href="css/detalhe.css" />
+</head>
+<body>
+	<div data-role="page" id="produtos" data-theme="p">
+		<div id="header_p" data-role="header" data-position="fixed" data-theme="p" data-tap-toggle="false" data-hide-during-focus="false">
+			<div class="img_menu">
+				<a href="#painel" data-theme="p"><img src="imagens/menucar_28.png" /></a>
+			</div>
+			Produtos
+			<div class="img_header"><a href="#" data-theme="p" id="bt_carrinho"><img src="imagens/carrinho_28.png" /></a></div>
+			<div class="img_header">
+				<a href="#filtro" data-theme="p" id="p_filtro"><img src="imagens/filtro_28.png" /></a>
+			</div>
+		</div>
+		<div data-role="content" data-theme="p">
+			<div class="c_loja"></div>
+			<div class="vertical centro">
+				<div class="label_pesquisa">O que você procura ?</div>
+			</div>
+			<div class="c_pesquisa">
+				<form action="" id="lg_produtos">
+					<div class="vertical">
+						<input type="search" name="pesquisa" id="pesquisa" class="branco" placeholder="Produto ou Fabricante..." data-role="none" />
+					</div>
+					<div class="vertical">
+						<div class="horizontal b_pesquisar">
+							<a href="#" data-theme="p" id="bt_produto" data-role="button">Pesquisar</a>
+						</div>
+						<div class="horizontal b_limpar">
+							<a href="#" data-theme="p" id="bt_limpar" class="vermelho" data-role="button">Limpar</a>
+						</div>
+					</div>
+				</form>
+		    </div>    
+			<div class="c_pesquisa">&nbsp;</div>
+			<ul id="lista_produtos" data-role="listview" data-theme="p"></ul>
+			<ul id="lista_segmentos" data-role="listview" data-theme="p"></ul>
+		</div>
+		<div data-role="popup" id="popup" data-theme="p" class="ui-content" data-dismissible="false" data-position-to="origin"></div> 
+		<div data-role="panel" id="painel" data-theme="p" class="painel_menu" data-display="overlay" data-position="left" data-position-fixed="true" data-swipe-close="true">
+		</div>
+		<div data-role="panel" id="filtro" data-theme="p" class="painel_filtro" data-display="overlay" data-position="right" data-position-fixed="true" data-swipe-close="true">
+			<div class="vertical verover azul saudacao centro">
+				<div class="horizontal nome">
+					<div class="vertical"><b>Otimize o resultado da sua pesquisa</b></div>
+				</div>
+			</div>
+
+			<div class="vertical menu_itens">
+				<div class="vertical verover f_titulo">Ordenar</div>
+				<div class="vertical verover f_ordem"></div>
+
+				<div class="vertical verover f_titulo">Loja</div>
+				<div class="vertical verover f_loja"></div>
+
+				<div class="vertical verover f_titulo">Fabricante</div>
+				<div class="vertical verover f_fabricante"></div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="scripts/popup.js"></script>
+	<script type="text/javascript" src="scripts/menu.js"></script>
+	<script type="text/javascript" src="scripts/filtro.js"></script>
+ 	<script type="text/javascript" src="scripts/lojas.js"></script>
+	<script type="text/javascript" src="scripts/produtos.js"></script>
+</body>
+</html>

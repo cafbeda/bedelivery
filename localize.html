@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<title>BeDelivery</title> 
+<script type="text/javascript" src="cordova.js"></script>
+<link rel="stylesheet" href="jquery/jquery.mobile-1.4.3.min.css" />
+<script type="text/javascript" src="jquery/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="jquery/jquery.mobile-1.4.3.min.js"></script>
+<script type="text/javascript" src="scripts/base64.js"></script>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<link rel="stylesheet" href="css/bedelivery.css" />
+<link rel="stylesheet" href="css/menu.css" />
+<link rel="stylesheet" href="css/tema_p.css" />
+<link rel="stylesheet" href="css/localize.css" />
+</head>
+<body>
+	<div data-role="page" id="localize" data-theme="p">
+		<div id="header" data-role="header" data-position="fixed" data-theme="p" data-tap-toggle="false" data-hide-during-focus="false">
+			<div class="img_menu">
+				<a href="#painel" data-theme="p"><img src="imagens/menucar_28.png" /></a>
+			</div>
+			Localize-me
+			<div class="img_header"><a href="#" data-theme="p" id="bt_acesso"><img src="imagens/menu_28.png" /></a></div>
+		</div>
+		<div data-role="content" data-theme="p">
+			<div class="vertical centro"><p><h3>Buscando Localização...</h3></p></div>
+			<div class="vertical">
+				<div class="horizontal sinal"><img class="img_sinal" src="imagens/gps_160cz.png" /></div>
+			</div>
+			<div class="globo"></div>
+		</div>
+		<div data-role="popup" id="popup" data-theme="p" class="ui-content" data-dismissible="false" data-position-to="origin"></div> 
+		<div data-role="panel" id="painel" data-theme="p" class="painel_menu" data-display="overlay" data-position="left" data-position-fixed="true" data-swipe-close="true">
+		</div>
+	</div>
+	<script type="text/javascript" src="scripts/popup.js"></script>
+	<script type="text/javascript" src="scripts/menu.js"></script>
+	<script type="text/javascript" src="scripts/localize.js"></script>
+</body>
+</html>

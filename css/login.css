@@ -1,0 +1,26 @@
+.lembrar
+{
+}
+
+.flip
+{
+	width: 50%;
+	margin-left: 25%;
+}
+
+div.ui-slider-switch
+{
+	width: 100%;
+	background-color: #FFF;
+	padding: 2px;
+}
+
+.ui-slider-switch .ui-slider-label-b
+{ 
+	color: #B5B5B5;
+}
+
+.ui-slider-switch .ui-slider-label-a
+{ 
+	color: #104e8b;
+}

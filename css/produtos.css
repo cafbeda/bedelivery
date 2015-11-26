@@ -1,0 +1,229 @@
+.c_pesquisa
+{
+	background-color: #FFD700;
+	color: #FFF;	
+	font-family: Ubuntu-L;
+	text-overflow: ellipsis !important;
+	overflow: hidden !important;
+	white-space: normal !important;
+	padding: 0 1em 0 1em;
+	margin: 0 -16px 0 -16px;
+}
+
+.label_pesquisa
+{     
+	font-family: Ubuntu-M;
+	font-size: 1.4em;
+	font-weight: bold;
+	padding: 10px 0 10px 0;
+	background-color: #FFD700;
+	color: #FFF;
+	margin: -16px -16px 0 -16px;
+}
+
+.figura_itens
+{
+	width: 20%;
+	position: relative;
+	float: left;
+	border-color: #CCCCCC;
+	border-width: 1px;
+	border-style: solid;
+	margin: 0 0 2% 0;
+}
+
+.figura_segmentos
+{
+	width: 25%;
+	position: relative;
+	float: left;
+	margin: 0 0 0 0;
+}
+
+.img_itens, .img_segmentos
+{
+	width: 100%;
+}
+
+.b_pesquisar
+{
+	width: 65%;
+	margin-right: 3%;
+}
+
+.b_limpar
+{
+	width: 32%;
+}
+
+.itens
+{
+	width: 75%;
+	height: auto;
+	position: relative;
+	float: left;
+	margin-left: 2%;
+}
+
+.segmentos
+{
+	width: 70%;
+	height: auto;
+	font-size: 0.8em;
+	font-family: Ubuntu-L;
+	text-overflow: ellipsis !important;
+	white-space: normal !important;
+	color: #000;
+	position: relative;
+	float: left;
+	margin-left: 2%;
+}
+
+.produto
+{
+	font-size: 1.1em;
+	font-weight: bold;
+	font-family: Ubuntu-L;
+	text-overflow: ellipsis !important;
+	overflow: hidden !important;
+	white-space: normal !important;
+	color: #000;
+}
+
+.dados_itens
+{
+	text-overflow: ellipsis !important;
+	overflow: hidden !important;
+	white-space: normal !important;
+	font-family: Ubuntu-L;
+	font-size: 0.8em;
+	color: #000;
+}
+
+.fornecedor_itens
+{
+	text-overflow: ellipsis !important;
+	overflow: hidden !important;
+	white-space: normal !important;
+	font-family: Ubuntu-L;
+	font-size: 0.8em;
+	color: #104e8b;
+}
+
+.loja_itens
+{
+	text-overflow: ellipsis !important;
+	overflow: hidden !important;
+	white-space: normal !important;
+	font-family: Ubuntu-L;
+	font-size: 1em;
+	font-weight: bold;
+	color: #104e8b;
+}
+
+.preco_itens
+{
+	text-overflow: ellipsis !important;
+	overflow: hidden !important;
+	white-space: normal !important;
+	font-family: Ubuntu-M;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: green;
+}
+
+.preco_promo
+{
+	text-overflow: ellipsis !important;
+	overflow: hidden !important;
+	white-space: normal !important;
+	font-family: Ubuntu-M;
+	font-weight: bold;
+	color: red;
+	font-size: 0.8;
+}
+
+.cna_loja, .mna_loja, .cf_pagto
+{
+	background-color: #F5F5F5;
+	margin: -16px -16px 16px -16px;
+	padding: 10px 15px 10px 15px;
+	overflow: hidden;
+}
+
+.clabel_loja, .mlabel_loja, .clabel_pagto
+{
+	width: 67%;
+	text-align: center;
+	font-size: 1em;
+	font-family: Ubuntu-L;
+	line-height: 1.3em;
+	text-overflow: ellipsis !important;
+	overflow: hidden !important;
+	white-space: normal !important;
+	padding-left: 2%;
+	position: relative;
+	float: left;
+}
+
+.clabel_pagto
+{
+	text-align: left;
+}
+
+.cimg_ploja, .mimg_ploja, .cimg_pagto, .cimg_reset
+{
+	width: 3%;
+	height: 28px;
+	position: relative;
+	float: right;
+	margin: 0 16px 0 1em;
+}
+
+#formas_pagto
+{
+	width: 100%;
+	text-align: left;
+	font-size: 0.9em;
+	margin-left: 0%;
+}
+
+#img_fpagto
+{
+	position: relative;
+	float: left;
+	margin: 0 10px 0 5px;
+}
+
+.ui-listview>.ui-li-divider.lvd_segmentos
+{
+	color: #FFF;
+	border-top: 1px solid #CCC;
+	background-color: #1798EE;
+	font-size: 0.9em;
+	text-align: left;
+	text-indent: 1.2em;
+	padding: 5px 0 5px 0;
+}
+
+.ui-icon-carat-r.addcart:after
+{
+	background: url('../imagens/carrinho_28ae.png') no-repeat;
+}
+
+.ui-icon-carat-r.edtcart:after
+{
+	background: url('../imagens/editar_28ae.png') no-repeat right;
+}
+
+.ui-icon-carat-r.seloja:after
+{
+	background: url('../imagens/pdir_28aze.png') no-repeat right;
+}
+
+.ui-btn-icon-notext.addcart:after, .ui-btn-icon-notext.edtcart:after, .ui-btn-icon-notext.seloja:after
+{
+	bottom: 0px;
+	left: 1.5em;
+}
+

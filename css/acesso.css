@@ -1,0 +1,58 @@
+.bta_container
+{
+	width: auto;
+	margin: 0 auto;
+	padding: 2% 2% 0 2%;
+	overflow: hidden;
+}
+	
+.bta_localize, .bta_endereco, .bta_login
+{
+	width: 40%;
+	margin: 6% 0 0 30%;
+	background-color: #FFB90F;
+	border-radius: 6px;
+	border: none;
+	padding-bottom: 1%;
+	float: left;
+	cursor: pointer;
+}
+
+.bta_localize:before, .bta_endereco:before, .bta_login:before
+{
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.bta_localize
+{
+}
+
+.bta_endereco
+{
+}
+
+.bta_login
+{
+}
+
+.container_imagem
+{
+	width: 50%;
+	margin: -90% 0 5% 25%;
+}
+
+.bta_imagem
+{
+	width: 100%;
+}
+
+.bta_texto
+{
+	font-family: Ubuntu-M;
+	font-size: 130%;
+	text-align: center;
+	color: #FFF;
+	padding-bottom: 2%;
+}

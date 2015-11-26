@@ -1,0 +1,81 @@
+#detalha_item
+{
+	overflow: hidden;
+}
+
+#b_detalhe
+{
+	width: 100%;
+}
+
+#c_label
+{
+	text-align: center;
+}
+	
+#figura_detalhe
+{
+	width: 50%;
+	height: auto;
+	position: relative;
+	float: left;
+	border-color: #CCC;
+	border-width: 1px;
+	border-style: solid;
+	margin: 0 0 20px 25%;
+	overflow: hidden;
+}
+
+#img_detalhe
+{ width: 100%; }
+
+.menos
+{ 
+	width: 20%;
+	margin-right: 1%;
+}
+
+.quant
+{
+	width: 58%;
+	text-align: center;
+}
+
+.mais
+{ 
+	width: 20%;
+	margin-left: 1%;
+}
+
+.bad_adicionar
+{ 
+	width: 48%;
+	margin-right: 4%;
+}
+
+.bad_voltar
+{ 
+	width: 48%;
+}
+
+.bal_adicionar
+{ 
+	width: 31%;
+	margin-right: 3.5%;
+}
+
+.bal_excluir
+{ 
+	width: 31%;
+	margin-right: 3.5%;
+}
+
+.bal_voltar
+{ 
+	width: 31%;
+}
+
+.menosmais
+{
+	padding: 12px 0 12px 0;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<title>BeDelivery</title> 
+<script type="text/javascript" src="cordova.js"></script>
+<link rel="stylesheet" href="jquery/jquery.mobile-1.4.3.min.css" />
+<script type="text/javascript" src="jquery/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="jquery/jquery.mobile-1.4.3.min.js"></script>
+<link rel="stylesheet" href="css/bedelivery.css" />
+<link rel="stylesheet" href="css/tema_p.css" />
+<link rel="stylesheet" href="css/menu.css" />
+<link rel="stylesheet" href="css/endereco.css" />
+</head>
+<body>
+	<div data-role="page" id="endereco" data-theme="p">
+		<div id="header" data-role="header" data-position="fixed" data-theme="p" data-tap-toggle="false" data-hide-during-focus="false">
+			<div class="img_menu">
+				<a href="#painel" data-theme="p"><img src="imagens/menucar_28.png" /></a>
+			</div>
+			Endereço
+			<div class="img_header"><a href="#" data-theme="p" id="bt_acesso"><img src="imagens/menu_28.png" /></a></div>
+		</div>
+		<div data-role="content" data-theme="p">
+			<div class="vertical centro"><h4>Informe o CEP ou o endereço</h4></div>
+			<form action="" id="f_endereco">
+				<div class="vertical">
+					<div class="horizontal cep">
+						<input type="number" name="cep" id="cep" class="cinza_cl cep" placeholder="CEP" data-role="none"/>
+					</div>
+					<div class="horizontal uf">
+						<select name="lista_uf" id="lista_uf" data-role="none"></select>
+					</div>
+				</div>
+				<div class="vertical">
+					<select name="lista_mun" id="lista_mun" data-role="none"></select>
+				</div>
+				<div class="vertical">
+					<input type="text" name="end" id="end" class="cinza_cl" placeholder="Seu Endereço" data-role="none"/>
+				</div>
+				<div class="vertical">
+					<input type="text" name="bairro" id="bairro" class="cinza_cl" placeholder="Seu Bairro" data-role="none"/>
+				</div>
+				<div class="vertical">
+					<input type="text" name="numero" id="numero" class="cinza_cl" placeholder="Seu Número" data-role="none"/>
+				</div>
+				<div class="vertical">
+					<input type="text" name="comp" id="comp" class="cinza_cl" placeholder="Complemento" data-role="none"/>
+				</div>
+				<div class="vertical">&nbsp;</div>
+				<div class="vertical botao_80">
+					<a href="#" id="bt_confend" data-theme="p" class="verde" data-role="button">Confirmar Endereço</a>
+				</div>
+				<div class="vertical botao_80">
+					<a href="#" id="bt_consend" data-theme="p" data-role="button">Obter o CEP</a>
+				</div>
+			</form> 
+		</div>
+		<div data-role="popup" id="popup" data-theme="p" class="ui-content" data-dismissible="false" data-position-to="origin"></div> 
+		<div data-role="panel" id="painel" data-theme="p" class="painel_menu" data-display="overlay" data-position="left" data-position-fixed="true" data-swipe-close="true">
+		</div>
+	</div>
+	<script type="text/javascript" src="scripts/popup.js"></script>
+	<script type="text/javascript" src="scripts/menu.js"></script>
+	<script type="text/javascript" src="scripts/login.js"></script>
+	<script type="text/javascript" src="scripts/cadastro.js"></script>
+	<script type="text/javascript" src="scripts/endereco.js"></script>
+</body>
+</html>

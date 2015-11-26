@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<title>BeDelivery</title> 
+<script type="text/javascript" src="cordova.js"></script>
+<link rel="stylesheet" href="jquery/jquery.mobile-1.4.3.min.css" />
+<script type="text/javascript" src="jquery/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="jquery/jquery.mobile-1.4.3.min.js"></script>
+<script type="text/javascript" src="scripts/base64.js"></script>
+<link rel="stylesheet" href="css/bedelivery.css" />
+<link rel="stylesheet" href="css/menu.css" />
+<link rel="stylesheet" href="css/tema_p.css" />
+<link rel="stylesheet" href="css/cadastro.css" />
+</head>
+<body>
+	<div data-role="page" id="cadastro" data-theme="p">
+		<div id="header" data-role="header" data-position="fixed" data-theme="p" data-tap-toggle="false" data-hide-during-focus="false">
+			<div class="img_menu">
+				<a href="#painel" data-theme="p"><img src="imagens/menucar_28.png" /></a>
+			</div>
+			Cadastro
+			<div class="img_header"><a href="#" data-theme="p" id="bt_acesso"><img src="imagens/menu_28.png" /></a></div>
+		</div>
+		<div data-role="content" data-theme="p">
+			<form action="" id="lg_cadastro">
+				<div class="vertical">
+					<input type="text" name="nome" id="nome" class="cinza_cl" placeholder="Seu Nome" data-role="none"/>
+				</div>		
+				<div class="vertical">
+					<input type="email" name="email" id="email" class="cinza_cl" placeholder="Seu e-mail" data-role="none"/>
+				</div>		
+				<div class="vertical">
+					<input type="password" name="senha" id="senha" class="cinza_cl" placeholder="Sua senha" data-role="none"/>
+				</div>		
+				<div class="vertical">
+					<input type="password" name="csenha" id="csenha" class="cinza_cl" placeholder="Confirme a senha" data-role="none"/>
+				</div>		
+				<div class="vertical">
+					<div class="horizontal ddd">
+						<input type="number" name="ddd" id="ddd" class="cinza_cl" placeholder="DDD" data-role="none"/>
+					</div>		
+					<div class="horizontal telefone">
+						<input type="text" name="telefone" id="telefone" class="cinza_cl" placeholder="Seu Telefone" data-role="none"/>
+					</div>		
+				</div>		
+				<div class="vertical">&nbsp;</div>
+				<div class="vertical botao_80">
+					<a href="#" id="bt_atualizar" data-theme="p" data-role="button">Atualizar</a>
+				</div>		
+				<div class="vertical botao_80">
+					<a href="#" id="bt_face" data-theme="p" class="fcbook" data-role="button">Entrar com Facebook</a>
+				</div>		
+			</form> 
+		</div>
+		<div data-role="popup" id="popup" data-theme="p" class="ui-content" data-dismissible="false" data-position-to="origin"></div> 
+		<div data-role="panel" id="painel" data-theme="p" class="painel_menu" data-display="overlay" data-position="left" data-position-fixed="true" data-swipe-close="true">
+		</div>
+	</div>
+	<script type="text/javascript" src="scripts/popup.js"></script>
+	<script type="text/javascript" src="scripts/menu.js"></script>
+	<script type="text/javascript" src="scripts/cadastro.js"></script>
+	<script type="text/javascript" src="scripts/login.js"></script>
+</body>
+</html>

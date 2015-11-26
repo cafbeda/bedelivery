@@ -1,0 +1,107 @@
+.m_carrinho, .m_botoes
+{
+	display: none;
+}
+	
+.m_carrinho
+{
+	background-color: #FFF;
+	text-align: right;
+	font-family: Ubuntu-M;
+	text-overflow: ellipsis !important;
+	overflow: hidden !important;
+	white-space: normal !important;
+	margin: -16px -16px 16px -16px;
+	padding: 10px 15px 10px 15px;
+	display: none;
+}
+
+.cifrao_orcamento
+{
+	width: 20%;	
+	font-size: 3.5em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.preco_orcamento
+{
+	width: 80%;
+}
+
+#pagamento
+{
+	background-color: #F5F5F5;
+	text-align: left;
+	margin: -16px -16px 16px -16px;
+	padding: 0px 15px 15px 15px;
+	display: none;
+}
+
+.dados_loja, .dados_cliente
+{
+	background-color: #fff;
+	text-align: left;
+	font-size: 0.8em;
+	margin: -16px -16px 16px -16px;
+	padding: 10px 15px 0px 15px;
+	display: none;
+}
+
+.dados_loja
+{
+	text-align: center;
+}
+
+.dados_itens
+{
+	background-color: #fff;
+	text-align: left;
+	font-size: 0.8em;
+	margin: -16px -16px 16px -16px;
+	padding: 10px 15px 10px 15px;
+	display: none;
+}
+
+.di_a
+{
+	width: 60%;
+	text-align: left;
+	margin-rigth: 5px;
+}
+
+.di_bc
+{
+	width: 20%;
+	text-align: right;
+	margin-rigth: 5px;
+}
+
+.linha_trac
+{
+	width: 100%;
+	padding-top: 10px;
+	border-bottom: 1px dashed #000;
+}
+
+.preco_branco
+{
+	color: #FFF;
+}
+
+.c_laranja
+{
+	background-color: #FFB90F;
+}
+
+.b_enviar
+{
+	width: 96%;
+	margin: 0 2% 0 2%;
+}
+
+.t_laranja
+{ color: #FFB90F; }
+
+.t_verde
+{ color: #00CD00; }

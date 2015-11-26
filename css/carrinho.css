@@ -1,0 +1,59 @@
+.c_carrinho
+{
+	background-color: #FFF;
+	text-align: right;
+	font-family: Ubuntu-M;
+	text-overflow: ellipsis !important;
+	overflow: hidden !important;
+	white-space: normal !important;
+	margin: -16px -16px 16px -16px;
+	padding: 10px 15px 10px 15px;
+	display: none;
+}
+
+.preco_total
+{
+	min-width: 20%;
+	height: auto;
+	padding: 0.1em 0 0.1em 0;
+	font-size: 1em;
+	color: #006400;	
+}
+
+.linha
+{
+	width: 100%;
+	height: 2px;
+	border-bottom: 1px solid #000;
+}
+
+#q_label
+{
+	width: 70%;
+	text-align: center;
+	font-family: Ubuntu-L;
+	font-weight: normal;
+	color: #000;
+	padding-top: 5%;
+}
+
+#q_detalhe
+{
+	text-align: center;
+	font-family: Ubuntu-L;
+	font-weight: normal;
+	color: #000;
+	margin: 0 0 0 0;
+}
+
+.b_concluir
+{
+	width: 46%;
+	margin: 0 2% 0 2%;
+}
+
+.b_esvaziar
+{
+	width: 46%;
+	margin: 0 2% 0 2%;
+}

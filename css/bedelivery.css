@@ -1,0 +1,102 @@
+@viewport 
+{
+	media: screen;
+	width: device-width;
+	zoom: 1;
+	min-zoom: 0.5;
+	max-zoom: 4;
+}
+
+@font-face 
+{
+    font-family: Ubuntu-L;
+    src: url('../fontes/Ubuntu-L.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face 
+{
+    font-family: Ubuntu-M;
+    src: url('../fontes/Ubuntu-M.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{ 
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	font-family: Ubuntu-L;
+	font-size: 100%;
+}
+
+a, a:link, a:hover, a:visited
+{
+	text-decoration: none;
+	outline: none;
+}
+
+h3, h4
+{ margin: 0 0 1em 0; }
+
+.img_menu
+{
+	height: 28px;
+	position: relative;
+	float: left;
+	margin: 0 15px 0 0;
+}
+
+.img_header
+{
+	height: 28px;
+	position: relative;
+	float: right;
+	margin-right: 3%;
+}
+
+.horizontal
+{
+	width: auto;
+	position: relative;
+	float: left;
+}
+
+.vertical
+{
+	width: 100%;
+}
+
+.verover
+{
+	overflow: hidden;
+}
+
+.centro
+{ text-align: center; }
+
+.botao_80
+{
+	width: 80%;
+	padding: 0 10% 0 10%;
+}
+
+.cinza
+{ background-color: #F5F5F5; }
+
+.azul
+{ background-color: #1798EE; }
+
+.laranja
+{ background-color: #FFD700; }
+
+.txt_azul
+{ color: #1798EE; }
+
+.txt_azules
+{ color: #104e8b; }
+
+
+

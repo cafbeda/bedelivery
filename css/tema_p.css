@@ -1,0 +1,192 @@
+.ui-content
+{
+/*	padding: 1em 0 1em 0;*/ 
+}
+
+.ui-bar-p
+{
+	width: 100%;
+	background-color: #1798EE;
+	color: #FFF;	
+	font-family: Ubuntu-M;
+	font-size: 1.3em;
+	padding: 10px 0 10px 0;
+	border: none;
+	-webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.4);
+	box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.4);	
+}
+
+.ui-footer
+{
+	background-color: #FFD700;
+	font-size: 1.2em;
+	border: none;
+	padding: 0.5em 0 0 0;
+}
+
+.ui-footer .ui-btn-p
+{
+	font-size: 1em;
+}
+
+.ui-footer .ui-bar-p
+{
+	font-size: 1em;
+}
+
+.ui-listview>.ui-li-divider
+{
+	width: 100%;
+	border: none;
+	text-align: center;
+	background-color: #104e8b;
+	padding: 10px 0 10px 0;
+	font-size: 1em;
+}
+
+.ui-listview>li.ui-li-has-alt>.ui-btn+.ui-btn 
+{
+	width: 4em;
+	border-left-width: 0;
+}
+
+.ui-btn.ui-corner-all
+{
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.ui-btn-p
+{
+	width: 100%;
+	margin: 0 0 10px 0;
+	color: #FFF;
+	background-color: #1798EE;
+	font-family: Ubuntu-L;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 10px 0 10px 0;
+	border: none;
+}
+
+.ui-btn-p.fcbook
+{ background-color: #104e8b; }
+
+.ui-btn-p.vermelho
+{ background-color: #DE0000; }
+
+.ui-btn-p.verde
+{ background-color: #00CD00; }
+
+.ui-btn-p.cinza
+{ background-color: #CCCCCC; }
+
+.ui-btn-p.laranja
+{ background-color: #FFB90F; }
+
+.ui-body-p input[type=text], .ui-body-p input[type=password], .ui-body-p input[type=search], 
+.ui-body-p input[type=number], .ui-body-p input[type=tel], .ui-body-p input[type=email]
+{     
+	width: 100%;
+	margin: 0 0 10px 0;
+	font-family: Ubuntu-L;
+	font-size: 1.2em;
+	line-height: normal;
+	border-radius: 6px;
+	border: none;
+	background-color: #CCC;
+	padding: 13px 0 13px 0;
+	text-indent: 15pt;
+	text-decoration: none;
+	-webkit-appearance: none;
+	outline: none;
+}
+
+input[type="search"]::-webkit-search-cancel-button 
+{
+	-webkit-appearance: none;
+	outline: none;
+	text-decoration: none;
+}
+
+.ui-body-p input.cinza_cl
+{ background-color: #F5F5F5; }
+
+.ui-body-p input.branco
+{ background-color: #FFF; }
+
+.ui-body-p select
+{     
+	width: 100%;
+	margin: 0 0 10px 0;
+	font-family: Ubuntu-L;
+	font-size: 1.2em;
+	padding: 13px 0 13px 0;
+	text-indent: 15pt;
+	border: none;
+	border-radius: 6px;
+	background-color: #F5F5F5;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+}
+
+listview>.ui-li-divider, .ui-listview>li>a.ui-btn
+{
+	border-color: #CCC;
+}
+
+.ui-icon-carat-r:after 
+{
+	content: "";
+	position: absolute;
+	display: block;
+	width: 37px;
+	height: 28px;
+	background-color: transparent;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+
+.ui-popup
+{
+	background-color: #F1F3FF;	
+}
+  
+.ui-field-contain
+{
+	margin-top: 0.5em;
+}
+
+.painel_menu
+{
+	background-color: #FFF;	
+}
+
+.painel_filtro
+{
+	background-color: #F1F3FF;	
+}
+
+.ui-controlgroup-controls, .ui-controlgroup-controls .ui-radio, 
+.ui-controlgroup-controls .ui-checkbox, .ui-controlgroup-controls 
+.ui-select, .ui-controlgroup-controls li, .ui-controlgroup-label
+{
+	width: 90%;
+	margin-left: 0%;
+}
+
+.ui-btn, label.ui-btn
+{
+	font-family: Ubuntu-L;
+	border: none;
+}
+
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<title>BeDelivery</title> 
+<script type="text/javascript" src="cordova.js"></script>
+<link rel="stylesheet" href="jquery/jquery.mobile-1.4.3.min.css" />
+<script type="text/javascript" src="jquery/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="jquery/jquery.mobile-1.4.3.min.js"></script>
+<link rel="stylesheet" href="css/bedelivery.css" />
+<link rel="stylesheet" href="css/tema_p.css" />
+<link rel="stylesheet" href="css/produtos.css" />
+<link rel="stylesheet" href="css/detalhe.css" />
+</head>
+<body>
+	<div data-role="page" id="detalhe" data-theme="p">
+		<div data-role="content" data-theme="p">
+			<div id="detalha_item"></div>
+			<div data-role="field-content">
+				<div id="existe">
+					<div id="c_label"></div>
+					<div class="vertical">
+						<div class="horizontal menos">
+							<a href="#" id="bt_menos" data-theme="p" class="menosmais" data-role="button"><b>&#9664;</b></a>
+						</div>
+						<div class="horizontal quant">
+							<input type="number" name="quantidade" id="quantidade" class="cinza_cl centro" data-role="none"/>
+						</div>
+						<div class="horizontal mais">
+							<a href="#" id="bt_mais" data-theme="p" class="menosmais" data-role="button"><b>&#9654;</b></a>
+						</div>
+					</div>
+				</div>	
+				<div id="b_detalhe"></div>
+			</div>
+		</div>
+		<div data-role="popup" id="popup" data-theme="p" class="ui-content" data-dismissible="false" data-position-to="origin"></div> 
+		<script type="text/javascript" src="scripts/popup.js"></script>
+	 	<script type="text/javascript" src="scripts/lojas.js"></script>
+		<script type="text/javascript" src="scripts/detalhe.js"></script>
+	</div>
+</body>
+</html>

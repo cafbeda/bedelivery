@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello App Geolocation Map!</string>
+    <string name="app_name">Geolocation Map</string>
+
+</resources>
